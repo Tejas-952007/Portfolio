@@ -1,56 +1,76 @@
-# 👨‍💻 Tejas Sunil Ingle | Personal Portfolio
+<div align="center">
 
-![Portfolio Preview](https://via.placeholder.com/1000x500?text=Tejas+Portfolio+Preview)
+  <img src="https://via.placeholder.com/1000x500?text=Tejas+Portfolio+Preview" alt="Portfolio Banner" width="100%">
+
+  <h1 align="center">Personal Portfolio | Tejas Sunil Ingle</h1>
+
+  <p align="center">
+    <strong>High-Performance • Glassmorphism • Fully Responsive</strong>
+    <br />
+    A modern showcase for an Artificial Intelligence & Data Science Student.
+    <br />
+    <br />
+    <a href="https://tejas-952007.github.io/Portfolio/"><strong>View Live Demo »</strong></a>
+    <br />
+    <br />
+    <a href="#-key-features">Key Features</a> •
+    <a href="#-file-structure--image-requirements">File Structure</a> •
+    <a href="#-how-to-run-locally">Installation</a> •
+    <a href="#-contact-me">Contact</a>
+  </p>
+
+  <p align="center">
+    <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" alt="Status">
+    <img src="https://img.shields.io/github/last-commit/Tejas-952007/Portfolio?style=for-the-badge" alt="Last Commit">
+    <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License">
+  </p>
+</div>
+
+---
+
 ## 🚀 About The Project
 
-This is a **High-Performance, Fully Responsive Personal Portfolio** designed for an Artificial Intelligence & Data Science student. It features a modern "Glassmorphism" aesthetic, interactive animations, and a dynamic theme switcher.
+This is a **high-performance personal portfolio** designed specifically to highlight skills in Artificial Intelligence and Data Science. It moves away from standard templates, featuring a modern **"Glassmorphism" aesthetic**, interactive animations, and a dynamic theme switcher.
 
-The site is built using **Pure HTML, CSS, and JavaScript**, ensuring blazingly fast load times with no external heavy frameworks.
+The architecture is built on **Pure HTML, CSS, and JavaScript**, ensuring blazingly fast load times and zero dependency on heavy external frameworks.
 
 ### ✨ Key Features
 
-* **🎨 4 Dynamic Themes:**
-    * 🌙 **Dark Mode** (Default Professional Look)
-    * ☀️ **Light Mode** (Clean & Minimalist)
-    * 🔮 **Gradient Mode** (Cyberpunk/Neon Aesthetic)
-    * 🔥 **Sunset Mode** (Vibrant Fire/Gold Gradient)
-* **📱 Fully Responsive:** Optimized layout for Desktop, Tablet, and Mobile (with custom Hamburger Menu).
-* **⚡ Interactive Elements:**
-    * **Typewriter Effect** in the Hero section.
-    * **3D Tilt Cards** for projects and certificates.
-    * **Scroll Progress Bar** to track reading position.
-    * **Scroll Spy Navigation** (Active link highlighting).
-* **🏆 Certificate Lightbox:** Built-in modal to view certificates in full screen.
-* **💼 Comprehensive Sections:** Experience (Salesman), Education (NMIET), Skills, Projects, and Certifications.
+| Feature | Description |
+| :--- | :--- |
+| **🎨 4 Dynamic Themes** | Switch between **Dark** (Default), **Light**, **Gradient** (Cyberpunk), and **Sunset** (Fire/Gold). |
+| **📱 Fully Responsive** | Optimized for Desktop, Tablet, and Mobile with a custom accessible Hamburger Menu. |
+| **⚡ Interactive UI** | Includes **Typewriter Effects**, **3D Tilt Cards**, and a **Scroll Progress Bar**. |
+| **🏆 Certificate Lightbox** | Built-in modal system to view certifications in high-resolution full screen. |
+| **💼 Comprehensive** | Dedicated sections for Experience, Education (NMIET), Skills, Projects, and Certifications. |
 
 ---
 
 ## 🛠️ Technologies Used
 
-* ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-* ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-* ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-* **FontAwesome** (For Icons)
+This project is built with a focus on raw performance and semantic coding practices.
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![FontAwesome](https://img.shields.io/badge/FontAwesome-528DD7?style=for-the-badge&logo=fontawesome&logoColor=white)
 
 ---
 
 ## 📂 File Structure & Image Requirements
 
-For the website to look exactly right, your folder must contain these specific files.
-**⚠️ Note:** Image file names are Case-Sensitive. Ensure they match exactly.
+**⚠️ CRITICAL NOTE:** This project relies on specific file paths. Image file names are **Case-Sensitive**. Ensure your assets match the list below *exactly* to avoid broken images.
 
 ```text
 / (Root Directory)
 │
-├── index.html          # The main source code
-├── resume.pdf          # Your Resume file
-├── profile.jpg         # Your Profile Picture
+├── index.html           # Main application entry point
+├── resume.pdf           # Downloadable Resume file
+├── profile.jpg          # Sidebar/Hero Profile Picture
+├── hero-img.gif         # (Optional) Animated Hero asset
+├── README.md            # Project Documentation
 │
-├── hero-img.gif        # (Optional) Cool GIF for the Home Section
-│
-├── README.md           # This file
-│
-└── [Certificate Images]
+└── [Certificate Images] # MUST match these names exactly:
     ├── matpo.png
     ├── ms-excel.png
     ├── Introduction to AI(1).png
@@ -66,33 +86,47 @@ For the website to look exactly right, your folder must contain these specific f
     ├── python.png
     ├── data.png
     └── Learning Data Analysis Through Projects_ A Python Tutorial(1).png
-
 🚀 How to Run Locally
 
-    Download/Clone this repository.
+To modify or test this portfolio on your own machine:
 
-    Ensure all your images (listed above) are in the same folder as index.html.
+    Clone the Repository
+    Bash
 
-    Double-click index.html to open it in your browser (Chrome, Edge, Firefox, etc.).
+    git clone [https://github.com/Tejas-952007/Portfolio.git](https://github.com/Tejas-952007/Portfolio.git)
 
-🌐 How to Host on GitHub Pages (Free)
+    Verify Assets Ensure all images listed in the File Structure above are present in the root folder alongside index.html.
 
-    Upload all files to a new GitHub Repository.
+    Launch Double-click index.html to open it in your default browser (Chrome, Edge, Firefox, etc.).
+
+🌐 Deployment (GitHub Pages)
+
+You can host this for free using GitHub Pages.
+
+    Upload all files to your GitHub Repository.
 
     Go to the Settings tab of your repository.
 
     Click on Pages in the left sidebar.
 
-    Under Source, select main (or master) branch and click Save.
+    Under Source, select the main (or master) branch.
 
-    Wait 1-2 minutes, and GitHub will provide you a live link (e.g., https://Tejas-952007.github.io/Portfolio/).
+    Click Save.
+
+    Wait 1-2 minutes. GitHub will generate your live link (e.g., https://Tejas-952007.github.io/Portfolio/).
 
 📬 Contact Me
 
-    Email: tejasingle137@gmail.com
+Feel free to reach out for collaborations or AI/Data Science projects.
 
-    LinkedIn: Tejas Ingle
+<div align="center">
+Platform	Link
+Email	tejasingle137@gmail.com
+LinkedIn	Tejas Ingle
+GitHub	Tejas-952007
 
-    GitHub: Tejas-952007
+</div>
 
-<p align="center">Made with ❤️ by Tejas Ingle</p>
+<p align="center">Made with ❤️ by <strong>Tejas Ingle</strong></p>
+
+
