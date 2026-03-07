@@ -547,7 +547,7 @@
         if (contactForm) {
             contactForm.addEventListener("submit", async (e) => {
                 e.preventDefault();
-                contactStatus.textContent = "";
+                contactStatus.textContent = "Sending...";
                 contactSubmit.disabled = true;
                 const data = {
                     name: document.getElementById("contact-name").value,
@@ -555,9 +555,12 @@
                     message: document.getElementById("contact-message").value
                 };
                 try {
-                    const res = await fetch("/api/contact", {
+                    const res = await fetch("https://formsubmit.co/ajax/tejasingle137@gmail.com", {
                         method: "POST",
-                        headers: { "Content-Type": "application/json" },
+                        headers: {
+                            "Content-Type": "application/json",
+                            "Accept": "application/json"
+                        },
                         body: JSON.stringify(data)
                     });
                     const json = await res.json();
@@ -566,7 +569,7 @@
                         contactStatus.style.color = "var(--primary-color)";
                         contactForm.reset();
                     } else {
-                        contactStatus.textContent = json.error || "Something went wrong.";
+                        contactStatus.textContent = "Something went wrong.";
                         contactStatus.style.color = "#ef4444";
                     }
                 } catch (err) {
