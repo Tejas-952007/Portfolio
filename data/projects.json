@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "Email/SMS Spam Classifier",
+        "problem_stat": "High volume of spam messages reaching users' inboxes.",
+        "approach": "Used Multinomial Naive Bayes with TF-IDF vectorization for text classification.",
+        "tech_stack": "Python, Streamlit, Scikit-Learn, NLTK",
+        "github_url": "https://github.com/Tejas-952007/email-spam-classifier",
+        "live_demo_url": "https://smart-spam-detector.streamlit.app/",
+        "category": "AI/ML"
+    },
+    {
+        "id": 2,
+        "title": "TaskAgent (Voice UI)",
+        "problem_stat": "Traditional task managers require manual typing and lack real-time voice feedback.",
+        "approach": "Integrated Web Speech API for voice recognition and Chart.js for analytics.",
+        "tech_stack": "Web UI, Chart.js, Voice Recognition",
+        "github_url": "https://github.com/Tejas-952007/TaskAgent-Agentic-Task-Manager-with-Voice-UI",
+        "live_demo_url": "https://tejas-952007.github.io/TaskAgent-Agentic-Task-Manager-with-Voice-UI/",
+        "category": "Web Development"
+    },
+    {
+        "id": 3,
+        "title": "EngiPlanner",
+        "problem_stat": "Engineering students need a specialized tool for project and academic planning.",
+        "approach": "Built a structured scheduling application with React.",
+        "tech_stack": "Software Engineering, Web App",
+        "github_url": "https://github.com/Tejas-952007/EngiPlanner",
+        "live_demo_url": "https://engiplanner.vercel.app",
+        "category": "Software Engineering"
+    },
+    {
+        "id": 4,
+        "title": "Movie Recommender System",
+        "problem_stat": "Users struggle to find relevant movies to watch based on their interests.",
+        "approach": "Implemented a content-based filtering system using TF-IDF and Cosine Similarity.",
+        "tech_stack": "Python, TF-IDF, Cosine Similarity",
+        "github_url": "https://github.com/Tejas-952007/movie-recommender-system",
+        "live_demo_url": "https://mrs-tejas.streamlit.app/",
+        "category": "AI/ML"
+    }
+]

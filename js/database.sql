@@ -69,3 +69,48 @@ CREATE TABLE certifications (
     credential_url VARCHAR(255),
     image_path VARCHAR(255)
 );
+
+-- 6. Initial Data
+INSERT INTO projects (title, short_description, tech_stack, github_url, live_demo_url, category, is_featured)
+VALUES (
+    'Email/SMS Spam Classifier',
+    'A machine learning-powered web application that classifies messages as Spam or Ham using a Multinomial Naive Bayes model.',
+    'Python, Streamlit, Scikit-Learn, NLTK',
+    'https://github.com/Tejas-952007/email-spam-classifier',
+    'https://smart-spam-detector.streamlit.app/',
+    'AI/ML',
+    TRUE
+);
+
+INSERT INTO projects (title, short_description, tech_stack, github_url, live_demo_url, category, is_featured)
+VALUES (
+    'TaskAgent (Voice UI)',
+    'An agentic task manager equipped with voice interactions and an analytics dashboard.',
+    'Web UI, Chart.js, Voice Recognition',
+    'https://github.com/Tejas-952007/TaskAgent-Agentic-Task-Manager-with-Voice-UI',
+    'https://tejas-952007.github.io/TaskAgent-Agentic-Task-Manager-with-Voice-UI/',
+    'Web Development',
+    TRUE
+);
+
+INSERT INTO projects (title, short_description, tech_stack, github_url, live_demo_url, category, is_featured)
+VALUES (
+    'EngiPlanner',
+    'A comprehensive planning and scheduling application designed specifically to organize academic workflows.',
+    'Software Engineering, Web App',
+    'https://github.com/Tejas-952007/EngiPlanner',
+    'https://engiplanner.vercel.app',
+    'Software Engineering',
+    TRUE
+);
+
+INSERT INTO projects (title, short_description, tech_stack, github_url, live_demo_url, category, is_featured)
+VALUES (
+    'Movie Recommender System',
+    'A content-based movie recommendation engine that suggests similar movies using TF-IDF vectorization and cosine similarity.',
+    'Python, TF-IDF, Cosine Similarity',
+    'https://github.com/Tejas-952007/movie-recommender-system',
+    'https://mrs-tejas.streamlit.app/',
+    'AI/ML',
+    TRUE
+);

@@ -573,6 +573,13 @@ section {
     margin-right: 1.5rem;
 }
 
+.project-links {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: auto;
+    padding: 0 1.5rem 1.5rem;
+}
+
 .project-link {
     display: inline-flex;
     align-items: center;
@@ -580,9 +587,6 @@ section {
     color: var(--text-primary);
     font-weight: 600;
     font-size: 0.95rem;
-    margin-top: auto;
-    margin-left: 1.5rem;
-    margin-bottom: 1.5rem;
     transition: var(--transition-fast);
 }
 
