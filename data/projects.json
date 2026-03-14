@@ -38,5 +38,35 @@
         "github_url": "https://github.com/Tejas-952007/movie-recommender-system",
         "live_demo_url": "https://mrs-tejas.streamlit.app/",
         "category": "AI/ML"
+    },
+    {
+        "id": 5,
+        "title": "AI Research Assistant",
+        "problem_stat": "Academic and research papers are often dense and time-consuming to digest.",
+        "approach": "Built a Streamlit application using Gemini 1.5 Flash and LangChain to provide interactive, easy-to-understand explanations of research papers.",
+        "tech_stack": "Streamlit, LangChain, Google Gemini API, PyPDF2",
+        "github_url": "https://github.com/Tejas-952007/AGENTIC_AI_WORKSHOP/blob/main/app.py",
+        "live_demo_url": "",
+        "category": "AI/ML"
+    },
+    {
+        "id": 6,
+        "title": "Autonomous Web-Search Agent",
+        "problem_stat": "Standard LLMs have a knowledge cutoff and cannot access real-time information or verify current events independently.",
+        "approach": "Implemented an autonomous agent using the ReAct (Reasoning and Acting) framework on LangGraph with Tavily and DuckDuckGo Search APIs.",
+        "tech_stack": "LangChain, LangGraph, Google Gemini API, Tavily Search API",
+        "github_url": "https://github.com/Tejas-952007/AGENTIC_AI_WORKSHOP/blob/main/langchain_agent_tavily.py",
+        "live_demo_url": "",
+        "category": "AI/ML"
+    },
+    {
+        "id": 7,
+        "title": "Multi-Provider LLM Integration Suite",
+        "problem_stat": "Organizations struggle to compare and switch between different LLM providers (Google, Hugging Face, Groq) to optimize for cost, speed, or accuracy.",
+        "approach": "Developed a suite of implementation patterns for integrating and orchestrating various LLMs using Sequential and Parallel Chains.",
+        "tech_stack": "Google Gemini, Hugging Face Hub, Groq API, LangChain",
+        "github_url": "https://github.com/Tejas-952007/AGENTIC_AI_WORKSHOP/",
+        "live_demo_url": "",
+        "category": "AI/ML"
     }
 ]
