@@ -1,6 +1,6 @@
 # Tejas Sunil Ingle
 **AI & Data Science Student | Problem Solver | Data Enthusiast**
-📍 Pune, Maharashtra, India | ✉️ tejasingle137@gmail.com | 🔗 [LinkedIn](https://linkedin.com/in/tejas-ingle-b4323b32a) | 💻 [GitHub](https://github.com/Tejas-952007) | 🧑‍💻 [LeetCode](https://leetcode.com/u/tej_137_/)
+📍 Pune, Maharashtra, India | ✉️ tejasingle137@gmail.com | 🔗 [LinkedIn](https://www.linkedin.com/in/tejas-ingle-39b36738a/) | 💻 [GitHub](https://github.com/Tejas-952007) | 🧑‍💻 [LeetCode](https://leetcode.com/u/tej_137_/)
 
 ---
 
