@@ -68,5 +68,15 @@
         "github_url": "https://github.com/Tejas-952007/AGENTIC_AI_WORKSHOP/",
         "live_demo_url": "",
         "category": "AI/ML"
+    },
+    {
+        "id": 8,
+        "title": "Farmer Crop Advisor",
+        "problem_stat": "Indian farmers lack accessible, data-driven guidance on which crops to plant based on their soil composition and local weather conditions.",
+        "approach": "Built an AI-powered crop recommendation system using a Random Forest classifier trained on 2,200+ samples across 22 crops. Integrated live weather data via OpenWeather API and added multi-language support (English, Hindi, Marathi) with Plotly visualizations.",
+        "tech_stack": "Python, Scikit-learn, Streamlit, Plotly, OpenWeather API, pandas, numpy",
+        "github_url": "https://github.com/Tejas-952007/Farmer-friend-using-Random-Forset-Algorithim",
+        "live_demo_url": "https://farmer-friend-using-random-forset-algorithim.streamlit.app/",
+        "category": "AI/ML"
     }
 ]
